@@ -1,0 +1,131 @@
+{
+  "_note": "Sample summaries for demonstration. No amounts, premium rates or dates are stated; always verify on the official source.",
+  "categories": [
+    { "id": "crop", "emoji": "🌾", "scheme": "pmfby", "label": { "en": "Crop Insurance", "te": "పంట బీమా", "hi": "फसल बीमा" } },
+    { "id": "finance", "emoji": "🏦", "scheme": "kcc", "label": { "en": "Financial Support", "te": "ఆర్థిక సహాయం", "hi": "वित्तीय सहायता" } },
+    { "id": "coop", "emoji": "🏢", "scheme": "pacs", "label": { "en": "Cooperative Support", "te": "సహకార సంఘాలకు సహాయం", "hi": "सहकारी सहायता" } },
+    { "id": "farmer", "emoji": "👨‍🌾", "scheme": "pmkisan", "label": { "en": "Farmer Schemes", "te": "రైతు పథకాలు", "hi": "किसान योजनाएँ" } }
+  ],
+  "schemes": {
+    "pmfby": {
+      "name": {
+        "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "te": "ప్రధాన మంత్రి ఫసల్ బీమా యోజన (PMFBY)",
+        "hi": "प्रधानमंत्री फसल बीमा योजना (PMFBY)"
+      },
+      "purpose": {
+        "en": "Crop insurance support for eligible farmers.",
+        "te": "అర్హులైన రైతులకు పంట బీమా సహాయం.",
+        "hi": "पात्र किसानों के लिए फसल बीमा सहायता।"
+      },
+      "eligibility": {
+        "en": ["Farmers growing notified crops in notified areas", "Includes sharecroppers and tenant farmers, subject to scheme rules", "Confirm current eligibility on the official portal"],
+        "te": ["నోటిఫై చేసిన ప్రాంతాల్లో నోటిఫై చేసిన పంటలు పండించే రైతులు", "పథక నియమాల ప్రకారం కౌలు రైతులు కూడా అర్హులు", "ప్రస్తుత అర్హతను అధికారిక పోర్టల్‌లో నిర్ధారించుకోండి"],
+        "hi": ["अधिसूचित क्षेत्रों में अधिसूचित फसलें उगाने वाले किसान", "योजना नियमों के अनुसार बटाईदार और काश्तकार किसान भी शामिल", "वर्तमान पात्रता आधिकारिक पोर्टल पर जाँचें"]
+      },
+      "coverage": {
+        "en": ["Crop loss due to specified natural risks, as notified", "Certain localised and post-harvest risks, as per guidelines", "Details vary by crop, season and State"],
+        "te": ["నోటిఫై చేసిన సహజ ప్రమాదాల వల్ల పంట నష్టం", "మార్గదర్శకాల ప్రకారం కొన్ని స్థానిక మరియు కోత తర్వాతి నష్టాలు", "వివరాలు పంట, సీజన్, రాష్ట్రాన్ని బట్టి మారుతాయి"],
+        "hi": ["अधिसूचित प्राकृतिक जोखिमों से फसल हानि", "दिशानिर्देशों के अनुसार कुछ स्थानीय और कटाई-पश्चात जोखिम", "विवरण फसल, मौसम और राज्य के अनुसार अलग"]
+      },
+      "apply": {
+        "en": ["Visit your bank, a Common Service Centre (CSC), or the official PMFBY portal", "Submit land records, bank details and sowing information", "Keep your application receipt"],
+        "te": ["మీ బ్యాంకు, కామన్ సర్వీస్ సెంటర్ (CSC) లేదా అధికారిక PMFBY పోర్టల్‌ను సందర్శించండి", "భూమి రికార్డులు, బ్యాంకు వివరాలు, విత్తిన సమాచారం సమర్పించండి", "దరఖాస్తు రసీదును భద్రపరచుకోండి"],
+        "hi": ["अपने बैंक, कॉमन सर्विस सेंटर (CSC) या आधिकारिक PMFBY पोर्टल पर जाएँ", "भूमि रिकॉर्ड, बैंक विवरण और बुवाई की जानकारी जमा करें", "आवेदन रसीद सुरक्षित रखें"]
+      },
+      "dates": {
+        "en": "Enrolment cut-off dates are notified for each season (Kharif / Rabi) and State. Check the official portal for current dates.",
+        "te": "ప్రతి సీజన్ (ఖరీఫ్ / రబీ) మరియు రాష్ట్రానికి నమోదు గడువు తేదీలు వేరుగా ప్రకటిస్తారు. ప్రస్తుత తేదీల కోసం అధికారిక పోర్టల్ చూడండి.",
+        "hi": "हर मौसम (खरीफ / रबी) और राज्य के लिए नामांकन की अंतिम तिथियाँ अलग से अधिसूचित होती हैं। वर्तमान तिथियों के लिए आधिकारिक पोर्टल देखें।"
+      },
+      "source": { "name": "PMFBY official portal", "url": "pmfby.gov.in" }
+    },
+    "kcc": {
+      "name": { "en": "Kisan Credit Card (KCC)", "te": "కిసాన్ క్రెడిట్ కార్డు (KCC)", "hi": "किसान क्रेडिट कार्ड (KCC)" },
+      "purpose": {
+        "en": "Timely access to short-term credit for agriculture and allied activities.",
+        "te": "వ్యవసాయం మరియు అనుబంధ కార్యకలాపాలకు సకాలంలో స్వల్పకాలిక రుణం.",
+        "hi": "कृषि और संबद्ध गतिविधियों के लिए समय पर अल्पकालिक ऋण।"
+      },
+      "eligibility": {
+        "en": ["Individual or joint cultivators", "Tenant farmers and sharecroppers, subject to bank norms", "Eligible fisheries and animal husbandry farmers"],
+        "te": ["వ్యక్తిగత లేదా ఉమ్మడి సాగుదారులు", "బ్యాంకు నిబంధనల ప్రకారం కౌలు రైతులు", "అర్హులైన మత్స్య మరియు పశుపోషణ రైతులు"],
+        "hi": ["व्यक्तिगत या संयुक्त किसान", "बैंक नियमों के अनुसार काश्तकार और बटाईदार", "पात्र मत्स्य और पशुपालन किसान"]
+      },
+      "coverage": {
+        "en": ["Revolving credit for crop production and related needs", "Interest support may apply as per current guidelines", "Terms are set by the lending bank"],
+        "te": ["పంట ఉత్పత్తి అవసరాలకు రివాల్వింగ్ రుణం", "ప్రస్తుత మార్గదర్శకాల ప్రకారం వడ్డీ సహాయం ఉండవచ్చు", "షరతులు రుణం ఇచ్చే బ్యాంకు నిర్ణయిస్తుంది"],
+        "hi": ["फसल उत्पादन के लिए परिक्रामी ऋण", "वर्तमान दिशानिर्देशों के अनुसार ब्याज सहायता संभव", "शर्तें ऋण देने वाला बैंक तय करता है"]
+      },
+      "apply": {
+        "en": ["Apply at a bank branch, cooperative bank or PACS", "Submit identity, address and land documents", "The bank assesses and sanctions the limit"],
+        "te": ["బ్యాంకు శాఖ, సహకార బ్యాంకు లేదా PACS లో దరఖాస్తు చేయండి", "గుర్తింపు, చిరునామా, భూమి పత్రాలు సమర్పించండి", "బ్యాంకు పరిశీలించి పరిమితిని మంజూరు చేస్తుంది"],
+        "hi": ["बैंक शाखा, सहकारी बैंक या PACS में आवेदन करें", "पहचान, पता और भूमि दस्तावेज़ जमा करें", "बैंक जाँच कर सीमा स्वीकृत करता है"]
+      },
+      "dates": {
+        "en": "Generally available throughout the year — confirm with your bank.",
+        "te": "సాధారణంగా సంవత్సరం పొడవునా అందుబాటులో ఉంటుంది — మీ బ్యాంకుతో నిర్ధారించుకోండి.",
+        "hi": "आमतौर पर पूरे वर्ष उपलब्ध — अपने बैंक से पुष्टि करें।"
+      },
+      "source": { "name": "myScheme", "url": "myscheme.gov.in" }
+    },
+    "pacs": {
+      "name": { "en": "Computerisation of PACS", "te": "PACS కంప్యూటరీకరణ", "hi": "PACS का कम्प्यूटरीकरण" },
+      "purpose": {
+        "en": "Strengthening Primary Agricultural Credit Societies (PACS) through computerisation for transparency and efficiency.",
+        "te": "పారదర్శకత, సామర్థ్యం కోసం ప్రాథమిక వ్యవసాయ సహకార పరపతి సంఘాల (PACS) కంప్యూటరీకరణ.",
+        "hi": "पारदर्शिता और दक्षता के लिए प्राथमिक कृषि ऋण समितियों (PACS) का कम्प्यूटरीकरण।"
+      },
+      "eligibility": {
+        "en": ["Functional PACS identified by the State / implementing agency", "Implemented with State Governments and NABARD"],
+        "te": ["రాష్ట్రం / అమలు సంస్థ గుర్తించిన పనిచేస్తున్న PACS", "రాష్ట్ర ప్రభుత్వాలు, NABARD ద్వారా అమలు"],
+        "hi": ["राज्य / कार्यान्वयन एजेंसी द्वारा चिन्हित कार्यरत PACS", "राज्य सरकारों और NABARD के साथ कार्यान्वयन"]
+      },
+      "coverage": {
+        "en": ["Common software for accounts and operations", "Faster, more transparent services for members", "Better linkage with cooperative banks"],
+        "te": ["లెక్కలు, కార్యకలాపాలకు ఉమ్మడి సాఫ్ట్‌వేర్", "సభ్యులకు వేగవంతమైన, పారదర్శక సేవలు", "సహకార బ్యాంకులతో మెరుగైన అనుసంధానం"],
+        "hi": ["हिसाब और संचालन के लिए साझा सॉफ़्टवेयर", "सदस्यों के लिए तेज़ और पारदर्शी सेवाएँ", "सहकारी बैंकों से बेहतर जुड़ाव"]
+      },
+      "apply": {
+        "en": ["PACS coordinate with the State Registrar of Cooperative Societies", "Follow the implementation process notified by the State"],
+        "te": ["PACS రాష్ట్ర సహకార సంఘాల రిజిస్ట్రార్‌తో సమన్వయం చేసుకోవాలి", "రాష్ట్రం ప్రకటించిన అమలు విధానాన్ని అనుసరించాలి"],
+        "hi": ["PACS राज्य के सहकारी समितियों के रजिस्ट्रार से समन्वय करें", "राज्य द्वारा अधिसूचित प्रक्रिया का पालन करें"]
+      },
+      "dates": {
+        "en": "Timelines are set by the Ministry and States — see the official source.",
+        "te": "కాలపరిమితులను మంత్రిత్వ శాఖ, రాష్ట్రాలు నిర్ణయిస్తాయి — అధికారిక మూలాన్ని చూడండి.",
+        "hi": "समय-सीमा मंत्रालय और राज्य तय करते हैं — आधिकारिक स्रोत देखें।"
+      },
+      "source": { "name": "Ministry of Cooperation", "url": "cooperation.gov.in" }
+    },
+    "pmkisan": {
+      "name": { "en": "PM-KISAN", "te": "PM-KISAN", "hi": "पीएम-किसान" },
+      "purpose": {
+        "en": "Income support to eligible landholding farmer families.",
+        "te": "అర్హులైన భూమి కలిగిన రైతు కుటుంబాలకు ఆదాయ సహాయం.",
+        "hi": "पात्र भूमिधारक किसान परिवारों को आय सहायता।"
+      },
+      "eligibility": {
+        "en": ["Landholding farmer families, as defined by the scheme", "Some categories are excluded under scheme rules", "eKYC and land-record verification required"],
+        "te": ["పథకం నిర్వచించిన భూమి కలిగిన రైతు కుటుంబాలు", "పథక నియమాల ప్రకారం కొన్ని వర్గాలు మినహాయించబడతాయి", "eKYC, భూమి రికార్డుల ధృవీకరణ అవసరం"],
+        "hi": ["योजना की परिभाषा के अनुसार भूमिधारक किसान परिवार", "योजना नियमों के तहत कुछ श्रेणियाँ बाहर", "eKYC और भूमि रिकॉर्ड सत्यापन ज़रूरी"]
+      },
+      "coverage": {
+        "en": ["Income support paid directly to bank accounts in instalments", "Amount and schedule as per current scheme guidelines"],
+        "te": ["విడతలుగా నేరుగా బ్యాంకు ఖాతాలో ఆదాయ సహాయం", "మొత్తం, షెడ్యూల్ ప్రస్తుత మార్గదర్శకాల ప్రకారం"],
+        "hi": ["किस्तों में सीधे बैंक खाते में आय सहायता", "राशि और समय वर्तमान दिशानिर्देशों के अनुसार"]
+      },
+      "apply": {
+        "en": ["Register via the PM-KISAN portal, CSC or local agriculture office", "Complete eKYC and link Aadhaar with your bank account", "Check beneficiary status on the portal"],
+        "te": ["PM-KISAN పోర్టల్, CSC లేదా స్థానిక వ్యవసాయ కార్యాలయం ద్వారా నమోదు", "eKYC పూర్తి చేసి ఆధార్‌ను బ్యాంకు ఖాతాతో అనుసంధానించండి", "పోర్టల్‌లో లబ్ధిదారు స్థితిని చూడండి"],
+        "hi": ["PM-KISAN पोर्टल, CSC या स्थानीय कृषि कार्यालय से पंजीकरण", "eKYC पूरा करें और आधार को बैंक खाते से जोड़ें", "पोर्टल पर लाभार्थी स्थिति देखें"]
+      },
+      "dates": {
+        "en": "Instalments are released periodically — check the official portal.",
+        "te": "విడతలు కాలానుగుణంగా విడుదలవుతాయి — అధికారిక పోర్టల్ చూడండి.",
+        "hi": "किस्तें समय-समय पर जारी होती हैं — आधिकारिक पोर्टल देखें।"
+      },
+      "source": { "name": "PM-KISAN portal", "url": "pmkisan.gov.in" }
+    }
+  }
+}

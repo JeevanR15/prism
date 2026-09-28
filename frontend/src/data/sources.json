@@ -1,0 +1,37 @@
+[
+  {
+    "id": "indiacode",
+    "name": "India Code",
+    "org": "Ministry of Law & Justice",
+    "url": "indiacode.nic.in",
+    "desc": "Central Acts & legislation"
+  },
+  {
+    "id": "cooperation",
+    "name": "Ministry of Cooperation",
+    "org": "Government of India",
+    "url": "cooperation.gov.in",
+    "desc": "Cooperative sector policies"
+  },
+  {
+    "id": "pmfby",
+    "name": "PMFBY",
+    "org": "Ministry of Agriculture & FW",
+    "url": "pmfby.gov.in",
+    "desc": "Crop insurance scheme"
+  },
+  {
+    "id": "myscheme",
+    "name": "myScheme",
+    "org": "Government of India",
+    "url": "myscheme.gov.in",
+    "desc": "Scheme discovery"
+  },
+  {
+    "id": "cpgrams",
+    "name": "CPGRAMS",
+    "org": "DARPG, Government of India",
+    "url": "pgportal.gov.in",
+    "desc": "Public grievance portal"
+  }
+]

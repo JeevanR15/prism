@@ -1,0 +1,53 @@
+{
+  "_note": "Mock knowledge-base index. Titles refer to real frameworks for context only; no provisions or section numbers are quoted anywhere in this demo.",
+  "documents": [
+    {
+      "id": "mscs-act",
+      "title": "Multi-State Co-operative Societies Act, 2002",
+      "source": "indiacode",
+      "type": "Central Act",
+      "scope": "Multi-state cooperatives",
+      "available": true
+    },
+    {
+      "id": "state-acts",
+      "title": "State Cooperative Societies Acts",
+      "source": "indiacode",
+      "type": "State Acts",
+      "scope": "State-registered cooperatives",
+      "available": true
+    },
+    {
+      "id": "model-byelaws",
+      "title": "Model bye-laws for PACS (reference)",
+      "source": "cooperation",
+      "type": "Model bye-laws",
+      "scope": "Primary Agricultural Credit Societies",
+      "available": true
+    },
+    {
+      "id": "pmfby-guidelines",
+      "title": "PMFBY operational guidelines (sample summary)",
+      "source": "pmfby",
+      "type": "Scheme guidelines",
+      "scope": "Crop insurance",
+      "available": true
+    },
+    {
+      "id": "grievance-process",
+      "title": "Public grievance redress process (sample summary)",
+      "source": "cpgrams",
+      "type": "Process guide",
+      "scope": "Grievances",
+      "available": true
+    },
+    {
+      "id": "registered-byelaws",
+      "title": "Your cooperative's registered bye-laws",
+      "source": null,
+      "type": "Registered bye-laws",
+      "scope": "Specific to one society",
+      "available": false
+    }
+  ]
+}

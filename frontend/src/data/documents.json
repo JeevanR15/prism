@@ -1,0 +1,138 @@
+[
+  {
+    "id": "coop-notice",
+    "file": "Cooperative Notice.pdf",
+    "pages": 1,
+    "size": "184 KB",
+    "language": "en",
+    "topic": { "en": "Cooperative governance", "te": "సహకార పాలన", "hi": "सहकारी शासन" },
+    "preview": [
+      "SAMPLE DOCUMENT — FOR DEMONSTRATION ONLY",
+      "Sample Farmers Service Cooperative Society Ltd.",
+      "NOTICE OF ANNUAL GENERAL BODY MEETING",
+      "All members are informed that the Annual General Body Meeting will be held on [date] at the society office.",
+      "Agenda: (1) Approval of annual accounts (2) Election of members to the Board of Directors (3) Any other matter with permission of the chair.",
+      "Members must bring their membership card. Nominations for the board election must be submitted before the notified date.",
+      "For queries contact: Secretary, K. Srinivas — 9123456780"
+    ],
+    "pii": [
+      { "type": "NAME", "value": "K. Srinivas" },
+      { "type": "PHONE", "value": "9123456780" }
+    ],
+    "source": {
+      "en": "Selected sample document · Cooperative Notice.pdf",
+      "te": "ఎంచుకున్న నమూనా పత్రం · Cooperative Notice.pdf",
+      "hi": "चुना गया नमूना दस्तावेज़ · Cooperative Notice.pdf"
+    },
+    "explanation": {
+      "summary": {
+        "en": "This notice invites all members to the society's Annual General Body Meeting, where the yearly accounts will be approved and board members will be elected.",
+        "te": "ఈ నోటీసు సంఘం వార్షిక సర్వసభ్య సమావేశానికి సభ్యులందరినీ ఆహ్వానిస్తుంది. ఈ సమావేశంలో వార్షిక లెక్కలు ఆమోదించబడతాయి మరియు పాలక మండలి సభ్యులు ఎన్నుకోబడతారు.",
+        "hi": "यह सूचना सभी सदस्यों को समिति की वार्षिक आम सभा बैठक में बुलाती है, जहाँ सालाना हिसाब स्वीकृत होगा और बोर्ड सदस्यों का चुनाव होगा।"
+      },
+      "meaning": {
+        "en": "As a member, you can attend, discuss the accounts and take part in the board election.",
+        "te": "సభ్యులుగా మీరు సమావేశానికి హాజరై, లెక్కలపై చర్చించి, పాలక మండలి ఎన్నికలో పాల్గొనవచ్చు.",
+        "hi": "सदस्य के रूप में आप बैठक में शामिल होकर हिसाब पर चर्चा कर सकते हैं और बोर्ड चुनाव में भाग ले सकते हैं।"
+      },
+      "points": {
+        "en": ["Meeting date and venue are given in the notice", "Board election is on the agenda", "Membership card is required", "Nominations have a deadline"],
+        "te": ["సమావేశ తేదీ, స్థలం నోటీసులో ఉన్నాయి", "పాలక మండలి ఎన్నిక అజెండాలో ఉంది", "సభ్యత్వ కార్డు తప్పనిసరి", "నామినేషన్లకు గడువు ఉంది"],
+        "hi": ["बैठक की तिथि और स्थान सूचना में दिए गए हैं", "बोर्ड चुनाव एजेंडा में है", "सदस्यता कार्ड ज़रूरी है", "नामांकन की अंतिम तिथि है"]
+      },
+      "next": {
+        "en": ["Note the meeting date", "Keep your membership card ready", "Submit your nomination before the deadline if you wish to contest", "Contact the society office for clarification"],
+        "te": ["సమావేశ తేదీని గుర్తుంచుకోండి", "సభ్యత్వ కార్డును సిద్ధంగా ఉంచుకోండి", "పోటీ చేయాలనుకుంటే గడువులోపు నామినేషన్ సమర్పించండి", "స్పష్టత కోసం సంఘం కార్యాలయాన్ని సంప్రదించండి"],
+        "hi": ["बैठक की तिथि नोट करें", "सदस्यता कार्ड तैयार रखें", "चुनाव लड़ना हो तो अंतिम तिथि से पहले नामांकन करें", "स्पष्टता के लिए समिति कार्यालय से संपर्क करें"]
+      }
+    }
+  },
+  {
+    "id": "pmfby-sheet",
+    "file": "PMFBY Information Sheet.pdf",
+    "pages": 2,
+    "size": "312 KB",
+    "language": "te",
+    "topic": { "en": "Crop insurance", "te": "పంట బీమా", "hi": "फसल बीमा" },
+    "preview": [
+      "నమూనా పత్రం — ప్రదర్శన కోసం మాత్రమే",
+      "ప్రధాన మంత్రి ఫసల్ బీమా యోజన — రైతుల సమాచార పత్రం",
+      "• నోటిఫై చేసిన పంటలకు బీమా రక్షణ",
+      "• బ్యాంకు, CSC లేదా అధికారిక పోర్టల్ ద్వారా నమోదు",
+      "• గడువు తేదీలు సీజన్ మరియు రాష్ట్రాన్ని బట్టి మారుతాయి",
+      "• అవసరమైన పత్రాలు: భూమి రికార్డులు, బ్యాంకు పాస్‌బుక్, విత్తిన వివరాలు"
+    ],
+    "pii": [],
+    "source": {
+      "en": "Selected sample document · PMFBY Information Sheet.pdf",
+      "te": "ఎంచుకున్న నమూనా పత్రం · PMFBY Information Sheet.pdf",
+      "hi": "चुना गया नमूना दस्तावेज़ · PMFBY Information Sheet.pdf"
+    },
+    "explanation": {
+      "summary": {
+        "en": "This information sheet explains the crop insurance scheme PMFBY: which crops are covered, how to enrol, and which documents are needed.",
+        "te": "ఈ సమాచార పత్రం PMFBY పంట బీమా పథకం గురించి వివరిస్తుంది: ఏ పంటలకు రక్షణ ఉంది, ఎలా నమోదు చేసుకోవాలి, ఏ పత్రాలు అవసరం.",
+        "hi": "यह सूचना-पत्र PMFBY फसल बीमा योजना के बारे में बताता है: कौन-सी फसलें शामिल हैं, नामांकन कैसे करें और कौन-से दस्तावेज़ चाहिए।"
+      },
+      "meaning": {
+        "en": "If you grow a notified crop in a notified area, you may be able to insure it before the seasonal deadline.",
+        "te": "మీరు నోటిఫై చేసిన ప్రాంతంలో నోటిఫై చేసిన పంట పండిస్తే, సీజన్ గడువులోపు దానికి బీమా చేయించుకోవచ్చు.",
+        "hi": "यदि आप अधिसूचित क्षेत्र में अधिसूचित फसल उगाते हैं, तो मौसम की अंतिम तिथि से पहले उसका बीमा करा सकते हैं।"
+      },
+      "points": {
+        "en": ["Covers notified crops in notified areas", "Enrol via bank, CSC or the official portal", "Deadlines differ by season and State", "Land records and bank details are needed"],
+        "te": ["నోటిఫై చేసిన ప్రాంతాల్లో నోటిఫై చేసిన పంటలకు రక్షణ", "బ్యాంకు, CSC లేదా పోర్టల్ ద్వారా నమోదు", "గడువులు సీజన్, రాష్ట్రాన్ని బట్టి మారుతాయి", "భూమి రికార్డులు, బ్యాంకు వివరాలు అవసరం"],
+        "hi": ["अधिसूचित क्षेत्रों में अधिसूचित फसलें शामिल", "बैंक, CSC या पोर्टल से नामांकन", "अंतिम तिथि मौसम और राज्य के अनुसार अलग", "भूमि रिकॉर्ड और बैंक विवरण ज़रूरी"]
+      },
+      "next": {
+        "en": ["Check if your crop is notified this season", "Collect the required documents", "Enrol before the deadline", "Keep the receipt safely"],
+        "te": ["ఈ సీజన్‌కు మీ పంట నోటిఫై అయిందో చూడండి", "అవసరమైన పత్రాలు సేకరించండి", "గడువులోపు నమోదు చేసుకోండి", "రసీదును భద్రంగా ఉంచుకోండి"],
+        "hi": ["देखें कि इस मौसम में आपकी फसल अधिसूचित है या नहीं", "ज़रूरी दस्तावेज़ इकट्ठा करें", "अंतिम तिथि से पहले नामांकन करें", "रसीद सुरक्षित रखें"]
+      }
+    }
+  },
+  {
+    "id": "coop-byelaws",
+    "file": "Cooperative Bye-Laws.pdf",
+    "pages": 14,
+    "size": "1.2 MB",
+    "language": "en",
+    "topic": { "en": "Cooperative bye-laws", "te": "సహకార బై-లాస్", "hi": "सहकारी उपनियम" },
+    "preview": [
+      "SAMPLE DOCUMENT — FOR DEMONSTRATION ONLY (not a registered bye-law)",
+      "Sample Cooperative Society — Bye-Laws (extract)",
+      "Membership: Any eligible person residing in the area of operation may apply for membership.",
+      "General Body: The General Body is the supreme authority of the society.",
+      "Board of Directors: The Board shall be elected as per the applicable Act and rules.",
+      "Amendment: Bye-laws may be amended only as per the procedure under the applicable Act."
+    ],
+    "pii": [],
+    "source": {
+      "en": "Selected sample document · Cooperative Bye-Laws.pdf",
+      "te": "ఎంచుకున్న నమూనా పత్రం · Cooperative Bye-Laws.pdf",
+      "hi": "चुना गया नमूना दस्तावेज़ · Cooperative Bye-Laws.pdf"
+    },
+    "explanation": {
+      "summary": {
+        "en": "Bye-laws are the society's own rulebook. This extract covers membership, the General Body, the Board of Directors and how the bye-laws can be changed.",
+        "te": "బై-లాస్ అనేవి సంఘం సొంత నియమావళి. ఈ భాగం సభ్యత్వం, సర్వసభ్య సభ, పాలక మండలి మరియు బై-లాస్‌ను ఎలా మార్చవచ్చో వివరిస్తుంది.",
+        "hi": "उपनियम समिति की अपनी नियम-पुस्तिका हैं। यह अंश सदस्यता, आम सभा, निदेशक मंडल और उपनियमों में बदलाव की प्रक्रिया के बारे में है।"
+      },
+      "meaning": {
+        "en": "The society must follow these rules together with the applicable Cooperative Societies Act. Members can use them to understand their rights.",
+        "te": "సంఘం ఈ నియమాలను వర్తించే సహకార సంఘాల చట్టంతో కలిపి పాటించాలి. సభ్యులు తమ హక్కులను అర్థం చేసుకోవడానికి వీటిని ఉపయోగించవచ్చు.",
+        "hi": "समिति को इन नियमों का पालन लागू सहकारी समिति अधिनियम के साथ करना होता है। सदस्य इनसे अपने अधिकार समझ सकते हैं।"
+      },
+      "points": {
+        "en": ["The General Body is the highest decision-making body", "The Board is elected as per the applicable Act", "Amendments must follow the legal procedure", "This is a sample extract, not a registered bye-law"],
+        "te": ["సర్వసభ్య సభ అత్యున్నత నిర్ణయ సంస్థ", "పాలక మండలి వర్తించే చట్టం ప్రకారం ఎన్నికవుతుంది", "సవరణలు చట్టపరమైన విధానాన్ని పాటించాలి", "ఇది నమూనా భాగం మాత్రమే, నమోదిత బై-లా కాదు"],
+        "hi": ["आम सभा सर्वोच्च निर्णय लेने वाली संस्था है", "बोर्ड लागू अधिनियम के अनुसार चुना जाता है", "संशोधन कानूनी प्रक्रिया से ही होते हैं", "यह नमूना अंश है, पंजीकृत उपनियम नहीं"]
+      },
+      "next": {
+        "en": ["Ask your society for its registered bye-laws", "Raise questions at the General Body meeting", "Contact the Registrar for official clarification"],
+        "te": ["మీ సంఘం నుండి నమోదిత బై-లాస్ ప్రతిని అడగండి", "సర్వసభ్య సమావేశంలో ప్రశ్నలు అడగండి", "అధికారిక స్పష్టత కోసం రిజిస్ట్రార్‌ను సంప్రదించండి"],
+        "hi": ["अपनी समिति से पंजीकृत उपनियमों की प्रति माँगें", "आम सभा बैठक में प्रश्न उठाएँ", "आधिकारिक स्पष्टता के लिए रजिस्ट्रार से संपर्क करें"]
+      }
+    }
+  }
+]

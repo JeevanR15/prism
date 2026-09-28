@@ -1,0 +1,258 @@
+{
+  "intents": [
+    {
+      "id": "crop_insurance",
+      "query": "crop insurance",
+      "topic": "Crop insurance",
+      "keywords": ["crop", "insurance", "fasal", "pmfby", "bima", "claim", "పంట", "బీమా", "ఫసల్", "फसल", "बीमा"],
+      "sources": ["pmfby", "myscheme"],
+      "kb": "pmfby-guidelines",
+      "confidence": "high",
+      "action": { "screen": "schemes", "param": "crop", "label": "act.schemes" },
+      "source": {
+        "en": "PMFBY — official portal",
+        "te": "PMFBY — అధికారిక పోర్టల్",
+        "hi": "PMFBY — आधिकारिक पोर्टल"
+      },
+      "document": {
+        "en": "PMFBY scheme guidelines (sample summary)",
+        "te": "PMFBY పథక మార్గదర్శకాలు (నమూనా సారాంశం)",
+        "hi": "PMFBY योजना दिशानिर्देश (नमूना सारांश)"
+      },
+      "response": {
+        "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY) provides crop insurance support for eligible farmers growing notified crops in notified areas. Enrolment is usually done through your bank, a Common Service Centre (CSC), or the official PMFBY portal before the seasonal cut-off date.",
+        "te": "ప్రధాన మంత్రి ఫసల్ బీమా యోజన (PMFBY) నోటిఫై చేసిన ప్రాంతాల్లో నోటిఫై చేసిన పంటలు పండించే అర్హులైన రైతులకు పంట బీమా సహాయం అందిస్తుంది. సాధారణంగా సీజన్ గడువు తేదీకి ముందే మీ బ్యాంకు, కామన్ సర్వీస్ సెంటర్ (CSC) లేదా అధికారిక PMFBY పోర్టల్ ద్వారా నమోదు చేసుకోవాలి.",
+        "hi": "प्रधानमंत्री फसल बीमा योजना (PMFBY) अधिसूचित क्षेत्रों में अधिसूचित फसलें उगाने वाले पात्र किसानों को फसल बीमा सहायता देती है। नामांकन आमतौर पर मौसम की अंतिम तिथि से पहले आपके बैंक, कॉमन सर्विस सेंटर (CSC) या आधिकारिक PMFBY पोर्टल से किया जाता है।"
+      },
+      "next_steps": {
+        "en": [
+          "Check if your crop and area are notified for this season",
+          "Keep land records, bank passbook and sowing details ready",
+          "Enrol through your bank, CSC or the PMFBY portal before the cut-off date",
+          "Keep your application receipt to track the policy"
+        ],
+        "te": [
+          "ఈ సీజన్‌కు మీ పంట మరియు ప్రాంతం నోటిఫై అయ్యాయో లేదో తెలుసుకోండి",
+          "భూమి రికార్డులు, బ్యాంకు పాస్‌బుక్ మరియు విత్తిన వివరాలు సిద్ధంగా ఉంచుకోండి",
+          "గడువు తేదీకి ముందే బ్యాంకు, CSC లేదా PMFBY పోర్టల్ ద్వారా నమోదు చేసుకోండి",
+          "పాలసీని ట్రాక్ చేయడానికి దరఖాస్తు రసీదును భద్రపరచుకోండి"
+        ],
+        "hi": [
+          "जाँचें कि इस मौसम के लिए आपकी फसल और क्षेत्र अधिसूचित हैं या नहीं",
+          "भूमि रिकॉर्ड, बैंक पासबुक और बुवाई का विवरण तैयार रखें",
+          "अंतिम तिथि से पहले बैंक, CSC या PMFBY पोर्टल से नामांकन करें",
+          "पॉलिसी ट्रैक करने के लिए आवेदन रसीद सुरक्षित रखें"
+        ]
+      }
+    },
+    {
+      "id": "coop_rules",
+      "query": "cooperative rules",
+      "topic": "Cooperative governance",
+      "keywords": ["rule", "rules", "cooperative", "co-operative", "society", "understand", "నియమాలు", "సహకార", "సంఘం", "नियम", "सहकारी", "समिति"],
+      "sources": ["cooperation", "indiacode"],
+      "kb": "state-acts",
+      "confidence": "high",
+      "action": { "screen": "documents", "param": null, "label": "act.documents" },
+      "source": {
+        "en": "Ministry of Cooperation",
+        "te": "సహకార మంత్రిత్వ శాఖ",
+        "hi": "सहकारिता मंत्रालय"
+      },
+      "document": {
+        "en": "Applicable cooperative legislation / rules",
+        "te": "వర్తించే సహకార చట్టం / నియమాలు",
+        "hi": "लागू सहकारी कानून / नियम"
+      },
+      "response": {
+        "en": "Cooperative rules can depend on the type of cooperative and the applicable State or Central framework. PRISM can help explain the relevant document in simpler language.",
+        "te": "సహకార సంఘం నియమాలు ఆ సంఘం రకం మరియు వర్తించే రాష్ట్ర లేదా కేంద్ర చట్టంపై ఆధారపడి ఉంటాయి. సంబంధిత పత్రాన్ని సరళమైన భాషలో వివరించడానికి PRISM సహాయపడుతుంది.",
+        "hi": "सहकारी समिति के नियम समिति के प्रकार और लागू राज्य या केंद्रीय ढाँचे पर निर्भर करते हैं। PRISM संबंधित दस्तावेज़ को सरल भाषा में समझाने में मदद कर सकता है।"
+      },
+      "next_steps": {
+        "en": [
+          "Identify the cooperative type",
+          "Identify the applicable State/central framework",
+          "Review the relevant provision",
+          "Contact the appropriate authority if clarification is required"
+        ],
+        "te": [
+          "మీ సహకార సంఘం రకాన్ని గుర్తించండి",
+          "వర్తించే రాష్ట్ర/కేంద్ర చట్టాన్ని గుర్తించండి",
+          "సంబంధిత నిబంధనను పరిశీలించండి",
+          "స్పష్టత కావాలంటే సంబంధిత అధికారిని సంప్రదించండి"
+        ],
+        "hi": [
+          "अपनी सहकारी समिति का प्रकार पहचानें",
+          "लागू राज्य/केंद्रीय ढाँचा पहचानें",
+          "संबंधित प्रावधान देखें",
+          "स्पष्टता के लिए संबंधित प्राधिकारी से संपर्क करें"
+        ]
+      }
+    },
+    {
+      "id": "coop_board",
+      "query": "governing board change",
+      "topic": "Cooperative governance",
+      "keywords": ["board", "governing", "election", "director", "directors", "committee", "cooperative", "పాలక", "మండలి", "ఎన్నిక", "బోర్డు", "बोर्ड", "चुनाव", "निदेशक"],
+      "sources": ["cooperation", "indiacode"],
+      "kb": "mscs-act",
+      "confidence": "medium",
+      "action": { "screen": "documents", "param": null, "label": "act.documents" },
+      "source": {
+        "en": "Ministry of Cooperation · India Code",
+        "te": "సహకార మంత్రిత్వ శాఖ · India Code",
+        "hi": "सहकारिता मंत्रालय · India Code"
+      },
+      "document": {
+        "en": "Applicable Cooperative Societies Act and registered bye-laws",
+        "te": "వర్తించే సహకార సంఘాల చట్టం మరియు నమోదిత బై-లాస్",
+        "hi": "लागू सहकारी समिति अधिनियम और पंजीकृत उपनियम"
+      },
+      "response": {
+        "en": "Changes to a cooperative's governing board are usually made through elections or procedures set out in the applicable Cooperative Societies Act and the society's registered bye-laws. The process differs for State-registered and multi-state cooperatives.",
+        "te": "సహకార సంఘం పాలక మండలి మార్పులు సాధారణంగా వర్తించే సహకార సంఘాల చట్టం మరియు సంఘం నమోదిత బై-లాస్‌లో పేర్కొన్న ఎన్నికలు లేదా విధానాల ద్వారా జరుగుతాయి. రాష్ట్రంలో నమోదైన సంఘాలకు మరియు బహుళ-రాష్ట్ర సంఘాలకు విధానం వేరుగా ఉంటుంది.",
+        "hi": "सहकारी समिति के शासी बोर्ड में बदलाव आमतौर पर लागू सहकारी समिति अधिनियम और समिति के पंजीकृत उपनियमों में दी गई चुनाव प्रक्रिया से होता है। राज्य-पंजीकृत और बहु-राज्य समितियों के लिए प्रक्रिया अलग होती है।"
+      },
+      "next_steps": {
+        "en": [
+          "Check whether your cooperative is State-registered or multi-state",
+          "Refer to the election / board provisions in your registered bye-laws",
+          "Check notices issued for the General Body meeting",
+          "Contact the Registrar of Cooperative Societies for clarification"
+        ],
+        "te": [
+          "మీ సంఘం రాష్ట్రంలో నమోదైందా లేదా బహుళ-రాష్ట్ర సంఘమా అని తెలుసుకోండి",
+          "నమోదిత బై-లాస్‌లో ఎన్నికలు / పాలక మండలి నిబంధనలు చూడండి",
+          "సర్వసభ్య సమావేశం కోసం జారీ చేసిన నోటీసులను చూడండి",
+          "స్పష్టత కోసం సహకార సంఘాల రిజిస్ట్రార్‌ను సంప్రదించండి"
+        ],
+        "hi": [
+          "जाँचें कि आपकी समिति राज्य-पंजीकृत है या बहु-राज्य",
+          "पंजीकृत उपनियमों में चुनाव / बोर्ड संबंधी प्रावधान देखें",
+          "आम सभा बैठक के लिए जारी सूचनाएँ देखें",
+          "स्पष्टता के लिए सहकारी समितियों के रजिस्ट्रार से संपर्क करें"
+        ]
+      }
+    },
+    {
+      "id": "grievance",
+      "query": "raise a grievance",
+      "topic": "Grievance",
+      "keywords": ["grievance", "complaint", "complain", "issue", "problem", "ఫిర్యాదు", "సమస్య", "शिकायत", "समस्या"],
+      "sources": ["cpgrams", "cooperation"],
+      "kb": "grievance-process",
+      "confidence": "high",
+      "action": { "screen": "grievance", "param": null, "label": "act.grievance" },
+      "source": {
+        "en": "CPGRAMS — public grievance portal",
+        "te": "CPGRAMS — ప్రజా ఫిర్యాదుల పోర్టల్",
+        "hi": "CPGRAMS — लोक शिकायत पोर्टल"
+      },
+      "document": {
+        "en": "Grievance redress process (sample summary)",
+        "te": "ఫిర్యాదు పరిష్కార విధానం (నమూనా సారాంశం)",
+        "hi": "शिकायत निवारण प्रक्रिया (नमूना सारांश)"
+      },
+      "response": {
+        "en": "You can raise a grievance with the authority responsible for the service. For Central Government services, CPGRAMS is the official public grievance portal. For cooperative matters, the Registrar of Cooperative Societies is usually the first point of contact.",
+        "te": "సేవకు బాధ్యత వహించే అధికారి వద్ద మీరు ఫిర్యాదు చేయవచ్చు. కేంద్ర ప్రభుత్వ సేవల కోసం CPGRAMS అధికారిక ప్రజా ఫిర్యాదుల పోర్టల్. సహకార సంఘ సమస్యలకు సాధారణంగా సహకార సంఘాల రిజిస్ట్రార్‌ను మొదట సంప్రదించాలి.",
+        "hi": "आप सेवा के लिए ज़िम्मेदार प्राधिकारी के पास शिकायत दर्ज कर सकते हैं। केंद्र सरकार की सेवाओं के लिए CPGRAMS आधिकारिक लोक शिकायत पोर्टल है। सहकारी मामलों के लिए आमतौर पर सहकारी समितियों के रजिस्ट्रार पहला संपर्क होते हैं।"
+      },
+      "next_steps": {
+        "en": [
+          "Identify the responsible authority",
+          "Collect supporting documents",
+          "Submit the grievance through the applicable channel",
+          "Note your registration number and track the status"
+        ],
+        "te": [
+          "బాధ్యత గల అధికారిని గుర్తించండి",
+          "సహాయక పత్రాలను సేకరించండి",
+          "సంబంధిత మార్గం ద్వారా ఫిర్యాదు సమర్పించండి",
+          "రిజిస్ట్రేషన్ నంబర్‌ను నోట్ చేసుకుని స్థితిని ట్రాక్ చేయండి"
+        ],
+        "hi": [
+          "ज़िम्मेदार प्राधिकारी की पहचान करें",
+          "सहायक दस्तावेज़ इकट्ठा करें",
+          "लागू माध्यम से शिकायत दर्ज करें",
+          "पंजीकरण संख्या नोट करें और स्थिति ट्रैक करें"
+        ]
+      }
+    },
+    {
+      "id": "document",
+      "query": "explain a notice",
+      "topic": "Document explanation",
+      "keywords": ["notice", "document", "explain", "letter", "circular", "నోటీసు", "పత్రం", "వివరించండి", "सूचना", "नोटिस", "दस्तावेज़", "समझाइए"],
+      "sources": ["cooperation", "myscheme"],
+      "kb": "model-byelaws",
+      "confidence": "medium",
+      "action": { "screen": "documents", "param": null, "label": "act.documents" },
+      "source": {
+        "en": "Selected / uploaded document",
+        "te": "ఎంచుకున్న / అప్‌లోడ్ చేసిన పత్రం",
+        "hi": "चुना गया / अपलोड किया गया दस्तावेज़"
+      },
+      "document": {
+        "en": "Sample documents (demo)",
+        "te": "నమూనా పత్రాలు (డెమో)",
+        "hi": "नमूना दस्तावेज़ (डेमो)"
+      },
+      "response": {
+        "en": "I can explain a notice or document in simple language. Open the Document Explainer and select the notice — PRISM will summarise what it means, the important points, and what you may need to do next.",
+        "te": "నోటీసు లేదా పత్రాన్ని సరళమైన భాషలో వివరించగలను. డాక్యుమెంట్ ఎక్స్‌ప్లెయినర్‌ను తెరిచి నోటీసును ఎంచుకోండి — దాని అర్థం, ముఖ్యమైన అంశాలు మరియు మీరు చేయవలసిన తదుపరి పనులను PRISM సంక్షిప్తంగా చెబుతుంది.",
+        "hi": "मैं किसी सूचना या दस्तावेज़ को सरल भाषा में समझा सकता हूँ। डॉक्यूमेंट एक्सप्लेनर खोलें और सूचना चुनें — PRISM बताएगा कि इसका क्या अर्थ है, मुख्य बातें क्या हैं और आगे आपको क्या करना पड़ सकता है।"
+      },
+      "next_steps": {
+        "en": [
+          "Open the Document Explainer",
+          "Select or upload the notice",
+          "Review the plain-language explanation",
+          "Follow the suggested next steps"
+        ],
+        "te": [
+          "డాక్యుమెంట్ ఎక్స్‌ప్లెయినర్‌ను తెరవండి",
+          "నోటీసును ఎంచుకోండి లేదా అప్‌లోడ్ చేయండి",
+          "సరళమైన వివరణను చదవండి",
+          "సూచించిన తదుపరి చర్యలను అనుసరించండి"
+        ],
+        "hi": [
+          "डॉक्यूमेंट एक्सप्लेनर खोलें",
+          "सूचना चुनें या अपलोड करें",
+          "सरल भाषा में दी गई व्याख्या पढ़ें",
+          "सुझाए गए अगले कदम अपनाएँ"
+        ]
+      }
+    }
+  ],
+  "abstention": {
+    "id": "abstain",
+    "topic": "Specific bye-law provision",
+    "patterns": [
+      "\\b(rule|section|clause|article|bye-?law)\\s*(no\\.?\\s*)?\\d+",
+      "నియమం\\s*\\d+",
+      "नियम\\s*\\d+"
+    ],
+    "sources": ["indiacode", "cooperation"],
+    "missing_kb": "registered-byelaws"
+  },
+  "fallback": {
+    "id": "fallback",
+    "topic": "Unknown",
+    "confidence": "low",
+    "sources": [],
+    "source": { "en": "—", "te": "—", "hi": "—" },
+    "document": { "en": "No matching document", "te": "సరిపోలే పత్రం లేదు", "hi": "कोई मेल खाता दस्तावेज़ नहीं" },
+    "response": {
+      "en": "I couldn't match your question to a topic in the current knowledge base, so I won't guess. Try asking about cooperative rules, crop insurance, schemes, notices or grievances.",
+      "te": "మీ ప్రశ్నకు సరిపోయే అంశం ప్రస్తుత సమాచార భాండాగారంలో లేదు, కాబట్టి నేను ఊహించను. సహకార నియమాలు, పంట బీమా, పథకాలు, నోటీసులు లేదా ఫిర్యాదుల గురించి అడగండి.",
+      "hi": "आपका प्रश्न वर्तमान ज्ञान-आधार के किसी विषय से मेल नहीं खाया, इसलिए मैं अनुमान नहीं लगाऊँगा। सहकारी नियम, फसल बीमा, योजनाएँ, सूचनाएँ या शिकायतों के बारे में पूछें।"
+    },
+    "next_steps": {
+      "en": ["Rephrase your question", "Try one of the sample questions", "Visit the nearest cooperative office for help"],
+      "te": ["మీ ప్రశ్నను మరోలా అడగండి", "నమూనా ప్రశ్నలలో ఒకదాన్ని ప్రయత్నించండి", "సహాయం కోసం సమీప సహకార కార్యాలయాన్ని సందర్శించండి"],
+      "hi": ["अपना प्रश्न दूसरे शब्दों में पूछें", "नमूना प्रश्नों में से कोई एक आज़माएँ", "सहायता के लिए नज़दीकी सहकारी कार्यालय जाएँ"]
+    }
+  }
+}

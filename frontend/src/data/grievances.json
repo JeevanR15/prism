@@ -1,0 +1,90 @@
+{
+  "_note": "Generic guidance for demonstration. PRISM does not submit grievances in this prototype.",
+  "types": [
+    {
+      "id": "cooperative",
+      "emoji": "🏢",
+      "label": { "en": "Cooperative", "te": "సహకార సంఘం", "hi": "सहकारी" },
+      "authority": {
+        "en": "Registrar / Assistant Registrar of Cooperative Societies (district office)",
+        "te": "సహకార సంఘాల రిజిస్ట్రార్ / అసిస్టెంట్ రిజిస్ట్రార్ (జిల్లా కార్యాలయం)",
+        "hi": "सहकारी समितियों के रजिस्ट्रार / सहायक रजिस्ट्रार (ज़िला कार्यालय)"
+      },
+      "documents": {
+        "en": ["Membership card or share certificate", "Copies of notices, receipts or resolutions", "Any written communication with the society"],
+        "te": ["సభ్యత్వ కార్డు లేదా షేర్ సర్టిఫికెట్", "నోటీసులు, రసీదులు లేదా తీర్మానాల ప్రతులు", "సంఘంతో జరిగిన లిఖిత సంప్రదింపులు"],
+        "hi": ["सदस्यता कार्ड या शेयर प्रमाणपत्र", "सूचनाओं, रसीदों या प्रस्तावों की प्रतियाँ", "समिति से हुआ कोई भी लिखित पत्राचार"]
+      },
+      "channel": {
+        "en": "Written complaint to the Registrar's office, or the State's online grievance channel where available",
+        "te": "రిజిస్ట్రార్ కార్యాలయానికి లిఖిత ఫిర్యాదు, లేదా అందుబాటులో ఉంటే రాష్ట్ర ఆన్‌లైన్ ఫిర్యాదు వ్యవస్థ",
+        "hi": "रजिस्ट्रार कार्यालय को लिखित शिकायत, या उपलब्ध होने पर राज्य का ऑनलाइन शिकायत माध्यम"
+      }
+    },
+    {
+      "id": "scheme",
+      "emoji": "📋",
+      "label": { "en": "Scheme", "te": "పథకం", "hi": "योजना" },
+      "authority": {
+        "en": "Implementing department of the scheme (block / district office) or the scheme helpline",
+        "te": "పథకాన్ని అమలు చేసే శాఖ (మండల / జిల్లా కార్యాలయం) లేదా పథక హెల్ప్‌లైన్",
+        "hi": "योजना लागू करने वाला विभाग (ब्लॉक / ज़िला कार्यालय) या योजना हेल्पलाइन"
+      },
+      "documents": {
+        "en": ["Application receipt or beneficiary ID", "Bank passbook copy", "Identity document"],
+        "te": ["దరఖాస్తు రసీదు లేదా లబ్ధిదారు ID", "బ్యాంకు పాస్‌బుక్ ప్రతి", "గుర్తింపు పత్రం"],
+        "hi": ["आवेदन रसीद या लाभार्थी ID", "बैंक पासबुक की प्रति", "पहचान दस्तावेज़"]
+      },
+      "channel": {
+        "en": "Grievance section of the scheme portal, the helpline, or the district office",
+        "te": "పథక పోర్టల్‌లోని ఫిర్యాదు విభాగం, హెల్ప్‌లైన్ లేదా జిల్లా కార్యాలయం",
+        "hi": "योजना पोर्टल का शिकायत अनुभाग, हेल्पलाइन या ज़िला कार्यालय"
+      }
+    },
+    {
+      "id": "insurance",
+      "emoji": "🛡️",
+      "label": { "en": "Insurance", "te": "బీమా", "hi": "बीमा" },
+      "authority": {
+        "en": "Insurance company or the bank branch where you enrolled; district agriculture office",
+        "te": "బీమా కంపెనీ లేదా మీరు నమోదు చేసుకున్న బ్యాంకు శాఖ; జిల్లా వ్యవసాయ కార్యాలయం",
+        "hi": "बीमा कंपनी या वह बैंक शाखा जहाँ नामांकन हुआ; ज़िला कृषि कार्यालय"
+      },
+      "documents": {
+        "en": ["Policy or enrolment receipt", "Crop loss details and dates", "Land records and bank details"],
+        "te": ["పాలసీ లేదా నమోదు రసీదు", "పంట నష్టం వివరాలు, తేదీలు", "భూమి రికార్డులు, బ్యాంకు వివరాలు"],
+        "hi": ["पॉलिसी या नामांकन रसीद", "फसल हानि का विवरण और तिथियाँ", "भूमि रिकॉर्ड और बैंक विवरण"]
+      },
+      "channel": {
+        "en": "The insurer's grievance channel or the scheme's grievance redressal mechanism",
+        "te": "బీమా సంస్థ ఫిర్యాదు వ్యవస్థ లేదా పథక ఫిర్యాదు పరిష్కార వ్యవస్థ",
+        "hi": "बीमा कंपनी का शिकायत माध्यम या योजना की शिकायत निवारण व्यवस्था"
+      }
+    },
+    {
+      "id": "service",
+      "emoji": "🏛️",
+      "label": { "en": "Government service", "te": "ప్రభుత్వ సేవ", "hi": "सरकारी सेवा" },
+      "authority": {
+        "en": "The department providing the service; for Central Government services, CPGRAMS",
+        "te": "సేవను అందించే శాఖ; కేంద్ర ప్రభుత్వ సేవలకు CPGRAMS",
+        "hi": "सेवा देने वाला विभाग; केंद्र सरकार की सेवाओं के लिए CPGRAMS"
+      },
+      "documents": {
+        "en": ["Application or request reference number", "Copies of correspondence", "Identity document"],
+        "te": ["దరఖాస్తు లేదా అభ్యర్థన రిఫరెన్స్ నంబర్", "సంప్రదింపుల ప్రతులు", "గుర్తింపు పత్రం"],
+        "hi": ["आवेदन या अनुरोध संदर्भ संख्या", "पत्राचार की प्रतियाँ", "पहचान दस्तावेज़"]
+      },
+      "channel": {
+        "en": "CPGRAMS (pgportal.gov.in) or the State public grievance portal",
+        "te": "CPGRAMS (pgportal.gov.in) లేదా రాష్ట్ర ప్రజా ఫిర్యాదుల పోర్టల్",
+        "hi": "CPGRAMS (pgportal.gov.in) या राज्य का लोक शिकायत पोर्टल"
+      }
+    }
+  ],
+  "tracking": {
+    "en": "Keep the acknowledgement / registration number and follow up using it.",
+    "te": "రసీదు / రిజిస్ట్రేషన్ నంబర్‌ను భద్రపరచుకుని దాని ద్వారా స్థితిని తెలుసుకోండి.",
+    "hi": "पावती / पंजीकरण संख्या सुरक्षित रखें और उसी से स्थिति देखें।"
+  }
+}

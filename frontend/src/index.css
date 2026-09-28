@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans", "Noto Sans Telugu", "Noto Sans Devanagari", "Nirmala UI", "Segoe UI", system-ui, sans-serif;
+
+  --color-navy-50: #eef3fb;
+  --color-navy-100: #d9e4f5;
+  --color-navy-200: #b3c8ea;
+  --color-navy-500: #2356b8;
+  --color-navy-600: #1a4799;
+  --color-navy-700: #123a82;
+  --color-navy-800: #0d2d66;
+  --color-navy-900: #0a2150;
+  --color-saffron: #ff9933;
+  --color-indgreen: #138808;
+  --color-maroon: #8b1a1a;
+}
+
+body {
+  @apply bg-[#f2f4f7] text-slate-800 antialiased;
+}
+
+/* News ticker (content is duplicated, so -50% loops seamlessly) */
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ticker-track { display: inline-block; animation: ticker 40s linear infinite; }
+.ticker:hover .ticker-track { animation-play-state: paused; }
+
+/* Faint diagonal pattern on the home banner */
+.banner {
+  background-image: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.035) 0 2px, transparent 2px 14px);
+}
+
+/* The classic blinking "NEW" badge */
+@keyframes blink { 50% { opacity: 0.25; } }
+.blink { animation: blink 1.2s steps(2, start) infinite; }
+
+/* Subtle entrance animation for revealed content */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.anim-in { animation: rise 0.35s ease-out both; }
+
+/* Audio / voice waveform */
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+.wave > span {
+  display: inline-block;
+  width: 3px;
+  height: 16px;
+  border-radius: 2px;
+  background: currentColor;
+  animation: wave 0.9s ease-in-out infinite;
+  transform-origin: center;
+}
+.wave > span:nth-child(2) { animation-delay: 0.12s; }
+.wave > span:nth-child(3) { animation-delay: 0.24s; }
+.wave > span:nth-child(4) { animation-delay: 0.36s; }
+.wave > span:nth-child(5) { animation-delay: 0.48s; }
+
+/* Source card "scanning" shimmer */
+@keyframes scan {
+  from { background-position: -200px 0; }
+  to { background-position: 200px 0; }
+}
+.scanning {
+  background-image: linear-gradient(90deg, transparent, rgba(35, 86, 184, 0.12), transparent);
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  animation: scan 1s linear infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
+}
