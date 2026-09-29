@@ -86,6 +86,11 @@ prism/
 ├── backend/                     # optional Flask mock API
 │   ├── app.py
 │   └── requirements.txt
+├── hardware/
+│   └── wokwi/                   # ESP32 kiosk I/O controller simulation (see its README)
+│       ├── sketch.ino
+│       ├── diagram.json
+│       └── libraries.txt
 └── frontend/
     ├── index.html
     ├── package.json
@@ -108,6 +113,7 @@ prism/
         │   └── sources.json
         ├── components/
         │   ├── Header.jsx, Footer.jsx, ui.jsx
+        │   ├── LanguageGate.jsx     # language picker shown at the start of each session
         │   ├── PipelineCard.jsx     # Privacy Gateway + retrieval animation
         │   ├── AnswerCard.jsx
         │   ├── AbstentionCard.jsx

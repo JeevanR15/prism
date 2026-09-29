@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "author": "Team larperss — PRISM (SIH26088)",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+
+    { "type": "board-ssd1306", "id": "oled", "top": -140, "left": 10, "attrs": { "i2cAddress": "0x3c" } },
+    { "type": "wokwi-led-ring", "id": "ring", "top": -170, "left": 230, "attrs": { "pixels": "16" } },
+    { "type": "wokwi-hc-sr04", "id": "sonar", "top": -170, "left": -260, "attrs": { "distance": "400" } },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": -60, "left": -160, "attrs": { "volume": "0.2" } },
+
+    { "type": "wokwi-relay-module", "id": "micRelay", "top": 60, "left": 230, "attrs": {} },
+    { "type": "wokwi-resistor", "id": "rMic", "top": 150, "left": 370, "attrs": { "value": "220" } },
+    { "type": "wokwi-led", "id": "ledMic", "top": 90, "left": 450, "attrs": { "color": "red", "label": "MIC POWER" } },
+
+    { "type": "wokwi-led", "id": "ledHi", "top": 250, "left": -250, "attrs": { "color": "orange", "label": "हिन्दी" } },
+    { "type": "wokwi-led", "id": "ledEn", "top": 250, "left": -170, "attrs": { "color": "white", "label": "English" } },
+    { "type": "wokwi-led", "id": "ledTe", "top": 250, "left": -90, "attrs": { "color": "green", "label": "తెలుగు" } },
+    { "type": "wokwi-resistor", "id": "rHi", "top": 330, "left": -270, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rEn", "top": 330, "left": -190, "rotate": 90, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rTe", "top": 330, "left": -110, "rotate": 90, "attrs": { "value": "220" } },
+
+    { "type": "wokwi-pushbutton", "id": "btnHi", "top": 400, "left": -280, "attrs": { "color": "yellow", "label": "1 हिन्दी", "key": "1" } },
+    { "type": "wokwi-pushbutton", "id": "btnEn", "top": 400, "left": -190, "attrs": { "color": "white", "label": "2 English", "key": "2" } },
+    { "type": "wokwi-pushbutton", "id": "btnTe", "top": 400, "left": -100, "attrs": { "color": "green", "label": "3 తెలుగు", "key": "3" } },
+    { "type": "wokwi-pushbutton", "id": "btnTalk", "top": 400, "left": 60, "attrs": { "color": "blue", "label": "TALK (hold, T)", "key": "t" } },
+    { "type": "wokwi-pushbutton", "id": "btnClear", "top": 400, "left": 200, "attrs": { "color": "red", "label": "CLEAR (C)", "key": "c" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+
+    [ "oled:GND", "esp:GND.2", "black", [] ],
+    [ "oled:VCC", "esp:3V3", "red", [] ],
+    [ "oled:SCL", "esp:22", "green", [] ],
+    [ "oled:SDA", "esp:21", "blue", [] ],
+
+    [ "ring:GND", "esp:GND.3", "black", [] ],
+    [ "ring:VCC", "esp:5V", "red", [] ],
+    [ "ring:DIN", "esp:19", "purple", [] ],
+
+    [ "sonar:VCC", "esp:5V", "red", [] ],
+    [ "sonar:GND", "esp:GND.1", "black", [] ],
+    [ "sonar:TRIG", "esp:18", "orange", [] ],
+    [ "sonar:ECHO", "esp:34", "gold", [] ],
+
+    [ "buzzer:1", "esp:GND.1", "black", [] ],
+    [ "buzzer:2", "esp:23", "violet", [] ],
+
+    [ "micRelay:VCC", "esp:5V", "red", [] ],
+    [ "micRelay:GND", "esp:GND.3", "black", [] ],
+    [ "micRelay:IN", "esp:5", "magenta", [] ],
+    [ "micRelay:COM", "esp:3V3", "red", [] ],
+    [ "micRelay:NO", "rMic:1", "red", [] ],
+    [ "rMic:2", "ledMic:A", "red", [] ],
+    [ "ledMic:C", "esp:GND.2", "black", [] ],
+
+    [ "esp:4", "rHi:1", "orange", [] ],
+    [ "rHi:2", "ledHi:A", "orange", [] ],
+    [ "ledHi:C", "esp:GND.1", "black", [] ],
+    [ "esp:16", "rEn:1", "white", [] ],
+    [ "rEn:2", "ledEn:A", "white", [] ],
+    [ "ledEn:C", "esp:GND.1", "black", [] ],
+    [ "esp:17", "rTe:1", "green", [] ],
+    [ "rTe:2", "ledTe:A", "green", [] ],
+    [ "ledTe:C", "esp:GND.1", "black", [] ],
+
+    [ "btnHi:1.l", "esp:32", "orange", [] ],
+    [ "btnHi:2.l", "esp:GND.1", "black", [] ],
+    [ "btnEn:1.l", "esp:33", "white", [] ],
+    [ "btnEn:2.l", "esp:GND.1", "black", [] ],
+    [ "btnTe:1.l", "esp:25", "green", [] ],
+    [ "btnTe:2.l", "esp:GND.1", "black", [] ],
+    [ "btnTalk:1.l", "esp:26", "blue", [] ],
+    [ "btnTalk:2.l", "esp:GND.1", "black", [] ],
+    [ "btnClear:1.l", "esp:27", "red", [] ],
+    [ "btnClear:2.l", "esp:GND.1", "black", [] ]
+  ],
+  "dependencies": {}
+}
